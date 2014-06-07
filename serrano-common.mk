@@ -26,10 +26,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 PRODUCT_BOOT_JARS += qcmediaplayer
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 960
-TARGET_SCREEN_WIDTH := 540
-
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
@@ -168,7 +164,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cwm.enable_key_repeat=true \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
-    persist.timed.enable=true
+    persist.timed.enable=true \
+    persist.audio.lowlatency.rec=false
 
 # Enable Samsung EMS dial path
 PRODUCT_PROPERTY_OVERRIDES += \
