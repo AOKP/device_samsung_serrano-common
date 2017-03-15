@@ -126,10 +126,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
-# Pre-built libc for camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/lib/libc.so:system/lib/libc.so
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
