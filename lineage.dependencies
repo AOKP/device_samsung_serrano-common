@@ -5,7 +5,7 @@
   },
   {
     "remote": "aokp",
-    "repository": "android_device_samsung_msm8930-common",
+    "repository": "device_samsung_msm8930-common",
     "target_path": "device/samsung/msm8930-common",
     "revision": "mm"
   },
