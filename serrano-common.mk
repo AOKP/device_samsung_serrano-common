@@ -140,10 +140,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqcomvoiceprocessing
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
