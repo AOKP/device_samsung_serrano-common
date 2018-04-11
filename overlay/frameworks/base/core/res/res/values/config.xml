@@ -311,4 +311,8 @@
         <item>SUPL_ES=0</item>
         <item>GPS_LOCK=0</item>
     </string-array>
+
+    <!-- Hardware keys on/off option -->
+    <bool name="config_hwKeysPref">true</bool>
+
 </resources>
